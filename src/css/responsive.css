@@ -1,0 +1,9 @@
+@media (max-width: 600px){
+    input#num {
+        width: 70%;
+    }
+
+    #cal {
+        margin-top: 10px;
+    }
+}

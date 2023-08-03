@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+:root {
+    --fonte-padrao: 'Tektur', cursive;
+}
+
+* {
+    font-family: var(--fonte-padrao);
+    color: white;
+}
+
+*::selection {
+    background-color: orangered;
+}
+
+*::-webkit-scrollbar {
+	width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: rgb(22, 21, 21);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: orangered;
+	border-radius: 10px;
+}
+
+body {
+    background-color: rgb(19, 18, 18);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 1px orangered;
+}
+
+main {
+    width: 30%;
+    margin: auto;
+    border: 3.5px solid orangered;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(230, 76, 29);
+    padding: 20px;
+    background-color: rgb(29, 24, 21);
+}
+
+#num, #tab, #cal {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#cal:hover {
+    background-color: rgb(39, 39, 39);
+    transition: 0.25s;
+}
+
+#cal:active {
+    background-color: orangered;
+}
+
+footer {
+    font-family: var(--fonte-footer);
+    text-align: center;
+}
